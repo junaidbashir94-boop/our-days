@@ -154,9 +154,27 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 }
 .form-grid { display: grid; gap: 12px; }
 .setup { max-width: 620px; margin: 24px auto; }
-.tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; background: var(--panel-2); border-radius: 12px; padding: 4px; }
-.tab { border: 0; background: transparent; color: var(--muted); border-radius: 9px; }
-.tab.active { background: var(--panel); color: var(--text); font-weight: 700; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+.tabs { 
+  display: grid; 
+  grid-auto-flow: column; 
+  grid-auto-columns: 1fr; 
+  gap: 4px; 
+  background: color-mix(in srgb, var(--panel-2) 60%, transparent); 
+  border-radius: 16px; 
+  padding: 6px; 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid color-mix(in srgb, var(--border) 40%, transparent);
+}
+.tab { 
+  border: 0; background: transparent; color: var(--muted); border-radius: 12px; 
+  transition: all 0.2s ease; padding: 8px 12px; font-weight: 500;
+}
+.tab:hover { color: var(--text); }
+.tab.active { 
+  background: var(--panel); color: var(--text); font-weight: 700; 
+  box-shadow: 0 2px 12px rgba(0,0,0,.06); 
+}
 .notice { border: 1px solid var(--border); background: var(--panel-2); border-radius: 12px; padding: 12px; font-size: .86rem; }
 .notice.error { border-color: color-mix(in srgb, var(--danger) 45%, var(--border)); color: var(--danger); }
 .invite-box {
@@ -1200,7 +1218,7 @@ textarea.input { resize: vertical; min-height: 82px; }
 .topbar-tagline{margin:.18rem 0 0;color:var(--muted);font-size:.75rem}
 .home-welcome{display:flex;justify-content:space-between;align-items:end;padding:4px 2px 0}
 .home-title{font-size:clamp(1.35rem,4vw,2rem);margin:.12rem 0 .25rem;letter-spacing:-.025em}
-.best-opportunity-card{display:grid;gap:12px;padding:18px;border-radius:20px;background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 14%,var(--panel)),var(--panel));border:1px solid color-mix(in srgb,var(--accent) 24%,var(--border));box-shadow:0 14px 34px rgba(15,23,42,.07)}
+.best-opportunity-card{display:grid;gap:12px;padding:24px;border-radius:24px;background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 10%,transparent),color-mix(in srgb,var(--panel) 60%,transparent));border:1px solid color-mix(in srgb,var(--accent) 15%,transparent);box-shadow:0 12px 40px rgba(0,0,0,.08);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
 .hero-badge{width:max-content;padding:5px 9px;border-radius:999px;background:color-mix(in srgb,var(--accent) 12%,var(--panel));color:var(--accent);font-size:.72rem;font-weight:850}
 .hero-main{display:flex;justify-content:space-between;gap:16px;align-items:center}.hero-main h2{margin:0 0 4px;font-size:clamp(1.3rem,4vw,1.8rem)}.hero-main p{margin:0;color:var(--muted)}
 .hero-score{display:grid;place-items:center;min-width:68px;padding:10px;border-radius:16px;background:var(--panel);border:1px solid var(--border)}.hero-score strong{font-size:1.35rem}.hero-score span{font-size:.68rem;color:var(--muted);font-weight:750}
