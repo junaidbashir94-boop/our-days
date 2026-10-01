@@ -51,8 +51,52 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   outline-offset: 2px;
 }
 #app { width: min(100%, 900px); margin: 0 auto; padding: 18px 14px 40px; }
-.splash { text-align: center; padding: 64px 16px; color: var(--muted); }
-.splash h1 { color: var(--text); margin: 12px 0 6px; }
+.splash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  padding: 32px 16px;
+  color: var(--muted);
+  animation: splashFadeIn 1s ease-out forwards;
+}
+.splash h1 {
+  color: var(--text);
+  margin: 24px 0 8px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, var(--text), var(--muted));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.splash p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  opacity: 0.8;
+  max-width: 320px;
+}
+.splash .app-brand-icon {
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 22px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  animation: splashFloat 3s ease-in-out infinite;
+}
+
+@keyframes splashFadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes splashFloat {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
 .logo-mark {
   width: 58px; height: 58px; border-radius: 18px; margin: auto;
   display: grid; place-items: center; background: var(--accent); color: white;
@@ -68,8 +112,14 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   padding: 8px 12px; white-space: nowrap; font-size: .85rem;
 }
 .card {
-  background: var(--panel); border: 1px solid var(--border); border-radius: 18px;
-  padding: 16px; box-shadow: var(--shadow);
+  background: color-mix(in srgb, var(--panel) 70%, transparent); 
+  border: 1px solid color-mix(in srgb, var(--border) 40%, transparent); 
+  border-radius: 24px;
+  padding: 20px; 
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .stack { display: grid; gap: 14px; }
 .grid-2 { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -83,10 +133,17 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 .row-wrap { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .between { justify-content: space-between; }
 .btn {
-  appearance: none; border: 1px solid var(--border); border-radius: 11px;
-  background: var(--panel); color: var(--text); padding: 9px 13px; font-weight: 650;
+  appearance: none; border: 1px solid color-mix(in srgb, var(--border) 50%, transparent); border-radius: 14px;
+  background: color-mix(in srgb, var(--panel) 80%, transparent); color: var(--text); padding: 10px 16px; font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
 }
-.btn-primary { background: var(--accent); border-color: var(--accent); color: white; }
+.btn:hover { background: var(--panel); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.btn-primary { 
+  background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 70%, #000)); 
+  border: none; color: white; box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 30%, transparent); 
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px color-mix(in srgb, var(--accent) 50%, transparent); }
 .btn-danger { color: var(--danger); }
 .btn-small { min-height: 38px; padding: 7px 10px; font-size: .82rem; }
 .field { display: grid; gap: 6px; }
