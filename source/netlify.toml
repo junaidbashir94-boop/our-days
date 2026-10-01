@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/ai-rota"
+  to = "/.netlify/functions/ai-rota"
+  status = 200

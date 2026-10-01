@@ -1,0 +1,8 @@
+{
+  "migrations": [
+    {
+      "version": "20260926061115",
+      "name": "availability_privacy_plans_v14"
+    }
+  ]
+}

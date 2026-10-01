@@ -1,0 +1,5196 @@
+{
+  "grants": [
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "device_link_codes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "device_link_codes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "device_link_codes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "device_link_codes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "device_link_codes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "device_link_codes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "device_link_codes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "meal_availability_overrides",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "meal_availability_overrides",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "meal_availability_overrides",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "meal_availability_overrides",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "meal_availability_overrides",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "meal_availability_overrides",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "meal_availability_overrides",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "meal_availability_overrides",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_events",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_events",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_events",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_events",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_events",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_events",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_events",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_events",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "groups",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_plan_notes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "days_off",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_member_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_activity",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_activity",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_activity",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_activity",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_activity",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_activity",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_activity",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_circle_defs",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_rsvps",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_rsvps",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_rsvps",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_rsvps",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_rsvps",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_rsvps",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_rsvps",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_rsvps",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_activity_feed",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_polls",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "group_poll_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_compare_sets",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_options",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "event_location_votes",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profiles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "personal_schedule_profile_members",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_devices",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_devices",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_devices",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_devices",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_devices",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_devices",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_devices",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_invites",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circle_memberships",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "circle_join_requests",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_network_config",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_network_config",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_network_config",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_network_config",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_network_config",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_network_config",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_network_config",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "authenticated",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "shared_circles",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_activity_log",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_activity_log",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_activity_log",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_activity_log",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_activity_log",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_activity_log",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "app_activity_log",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "anon",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "anon",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "anon",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "anon",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "anon",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "anon",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "anon",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_shift_definitions",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_availability_preferences",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_availability_preferences",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_availability_preferences",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_availability_preferences",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_availability_preferences",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_availability_preferences",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "member_availability_preferences",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "account_recovery_keys",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "INSERT",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "account_recovery_keys",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "SELECT",
+      "with_hierarchy": "YES"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "account_recovery_keys",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "UPDATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "account_recovery_keys",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "DELETE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "account_recovery_keys",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRUNCATE",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "account_recovery_keys",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "REFERENCES",
+      "with_hierarchy": "NO"
+    },
+    {
+      "grantee": "service_role",
+      "grantor": "postgres",
+      "table_name": "account_recovery_keys",
+      "is_grantable": "NO",
+      "table_schema": "public",
+      "table_catalog": "postgres",
+      "privilege_type": "TRIGGER",
+      "with_hierarchy": "NO"
+    }
+  ],
+  "tables": [
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "code",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "expires_at",
+          "type": "timestamp with time zone",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "used_at",
+          "type": "timestamp with time zone",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "device_link_codes",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "day",
+          "type": "date",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "meal",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "status",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "note",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "meal_availability_overrides",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "day",
+          "type": "date",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "start_min",
+          "type": "integer",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "location",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "note",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "created_by_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "category",
+          "type": "text",
+          "default": "'other'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "circle_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "end_min",
+          "type": "integer",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "time_zone",
+          "type": "text",
+          "default": "'Europe/London'::text",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "group_events",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "uuid",
+          "default": "gen_random_uuid()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "name",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "invite_code",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "owner_user_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "community_type",
+          "type": "text",
+          "default": "'shiftworkers'::text",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "groups",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "event_id",
+          "type": "bigint",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "body",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "event_plan_notes",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "day",
+          "type": "date",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "availability_type",
+          "type": "text",
+          "default": "'off'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "note",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "source",
+          "type": "text",
+          "default": "'manual'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "import_file_name",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "imported_at",
+          "type": "timestamp with time zone",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "entry_type",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "shift_start_min",
+          "type": "integer",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "shift_end_min",
+          "type": "integer",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "raw_value",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        }
+      ],
+      "relname": "days_off",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "owner_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "target_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "circle_key",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "personal_member_circles",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "first_seen_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "last_active_at",
+          "type": "timestamp with time zone",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "last_schedule_update_at",
+          "type": "timestamp with time zone",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "app_version",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        }
+      ],
+      "relname": "member_activity",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "owner_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "circle_key",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "label",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "icon",
+          "type": "text",
+          "default": "'⭐'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "personal_circle_defs",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "event_id",
+          "type": "bigint",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "status",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "event_rsvps",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "uuid",
+          "default": "gen_random_uuid()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "name",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "user_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "is_owner",
+          "type": "boolean",
+          "default": "false",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "role",
+          "type": "text",
+          "default": "'member'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "schedule_visibility",
+          "type": "text",
+          "default": "'shifts'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "public_handle",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "calendar_initials",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        }
+      ],
+      "relname": "members",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "actor_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "meta",
+          "type": "jsonb",
+          "default": "'{}'::jsonb",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "circle_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        }
+      ],
+      "relname": "group_activity_feed",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "uuid",
+          "default": "gen_random_uuid()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_by_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "closed",
+          "type": "boolean",
+          "default": "false",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "circle_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "choice_mode",
+          "type": "text",
+          "default": "'availability'::text",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "group_polls",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "uuid",
+          "default": "gen_random_uuid()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "poll_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "day",
+          "type": "date",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "start_min",
+          "type": "integer",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "label",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "sort_order",
+          "type": "integer",
+          "default": "0",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "group_poll_options",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "poll_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "option_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "status",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "group_poll_votes",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "owner_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "label",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_ids",
+          "type": "uuid[]",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "personal_compare_sets",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "event_id",
+          "type": "bigint",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "label",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_by_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "event_location_options",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "event_id",
+          "type": "bigint",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "option_id",
+          "type": "bigint",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "event_location_votes",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "uuid",
+          "default": "gen_random_uuid()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_by_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "personal_schedule_profiles",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "profile_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "personal_schedule_profile_members",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "user_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "device_name",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "last_seen_at",
+          "type": "timestamp with time zone",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        }
+      ],
+      "relname": "member_devices",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "uuid",
+          "default": "gen_random_uuid()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "circle_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "code",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_by_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "active",
+          "type": "boolean",
+          "default": "true",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "circle_invites",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "circle_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "role",
+          "type": "text",
+          "default": "'member'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "joined_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_type",
+          "type": "text",
+          "default": "'working'::text",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "shared_circle_memberships",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "uuid",
+          "default": "gen_random_uuid()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "circle_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "request_type",
+          "type": "text",
+          "default": "'join'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "status",
+          "type": "text",
+          "default": "'pending'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "requested_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "decided_at",
+          "type": "timestamp with time zone",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "decided_by_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "requested_member_type",
+          "type": "text",
+          "default": "'working'::text",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "circle_join_requests",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "singleton",
+          "type": "boolean",
+          "default": "true",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "app_network_config",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "uuid",
+          "default": "gen_random_uuid()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "name",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "icon",
+          "type": "text",
+          "default": "'◎'::text",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_by_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "is_default",
+          "type": "boolean",
+          "default": "false",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "description",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "archived_at",
+          "type": "timestamp with time zone",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "discoverability",
+          "type": "text",
+          "default": "'searchable'::text",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "shared_circles",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": null,
+          "identity": "d",
+          "not_null": true
+        },
+        {
+          "name": "group_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "actor_member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "meta",
+          "type": "jsonb",
+          "default": "'{}'::jsonb",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "app_activity_log",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "default": "nextval('member_shift_definitions_id_seq'::regclass)",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "code",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "normalized_code",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "kind",
+          "type": "text",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "start_min",
+          "type": "integer",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "end_min",
+          "type": "integer",
+          "default": null,
+          "identity": "",
+          "not_null": false
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "member_shift_definitions",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "preferences",
+          "type": "jsonb",
+          "default": "'{}'::jsonb",
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "default": "now()",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "member_availability_preferences",
+      "relrowsecurity": true
+    },
+    {
+      "columns": [
+        {
+          "name": "member_id",
+          "type": "uuid",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "token_hash",
+          "type": "bytea",
+          "default": null,
+          "identity": "",
+          "not_null": true
+        },
+        {
+          "name": "expires_at",
+          "type": "timestamp with time zone",
+          "default": "(now() + '1 year'::interval)",
+          "identity": "",
+          "not_null": true
+        }
+      ],
+      "relname": "account_recovery_keys",
+      "relrowsecurity": true
+    }
+  ],
+  "indexes": [
+    "CREATE INDEX personal_circle_defs_owner_idx ON public.personal_circle_defs USING btree (owner_member_id, group_id);",
+    "CREATE INDEX app_activity_log_group_created_idx ON public.app_activity_log USING btree (group_id, created_at DESC);",
+    "CREATE INDEX event_location_votes_group_event_idx ON public.event_location_votes USING btree (group_id, event_id);",
+    "CREATE INDEX event_plan_notes_group_event_idx ON public.event_plan_notes USING btree (group_id, event_id, created_at);",
+    "CREATE UNIQUE INDEX members_group_name_ci ON public.members USING btree (group_id, lower(name));",
+    "CREATE UNIQUE INDEX members_public_handle_ci ON public.members USING btree (lower(public_handle)) WHERE (public_handle IS NOT NULL);",
+    "CREATE INDEX personal_member_circles_owner_group_idx ON public.personal_member_circles USING btree (owner_member_id, group_id);",
+    "CREATE INDEX group_polls_circle_created_idx ON public.group_polls USING btree (circle_id, created_at DESC);",
+    "CREATE INDEX group_events_circle_day_idx ON public.group_events USING btree (circle_id, day, start_min);",
+    "CREATE INDEX personal_compare_sets_owner_idx ON public.personal_compare_sets USING btree (owner_member_id, group_id);",
+    "CREATE INDEX circle_join_requests_pending_idx ON public.circle_join_requests USING btree (group_id, status, requested_at DESC);",
+    "CREATE INDEX shared_circles_search_v13_3_idx ON public.shared_circles USING gin (lower(name) gin_trgm_ops);",
+    "CREATE INDEX group_activity_feed_group_created_idx ON public.group_activity_feed USING btree (group_id, created_at DESC);",
+    "CREATE INDEX event_location_options_group_event_idx ON public.event_location_options USING btree (group_id, event_id);",
+    "CREATE INDEX shared_circle_memberships_member_idx ON public.shared_circle_memberships USING btree (member_id, circle_id);"
+  ],
+  "policies": [
+    {
+      "cmd": "SELECT",
+      "qual": "(id = current_group_id())",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "groups",
+      "permissive": "PERMISSIVE",
+      "policyname": "group members can read group",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "INSERT",
+      "qual": null,
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "days_off",
+      "permissive": "PERMISSIVE",
+      "policyname": "members can add own days off",
+      "schemaname": "public",
+      "with_check": "((group_id = current_group_id()) AND (member_id = current_member_id()) AND (EXISTS ( SELECT 1\n   FROM members m\n  WHERE ((m.id = current_member_id()) AND (m.user_id = auth.uid()) AND (m.role = 'member'::text)))))"
+    },
+    {
+      "cmd": "DELETE",
+      "qual": "((group_id = current_group_id()) AND (member_id = current_member_id()) AND (EXISTS ( SELECT 1\n   FROM members m\n  WHERE ((m.id = current_member_id()) AND (m.user_id = auth.uid()) AND (m.role = 'member'::text)))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "days_off",
+      "permissive": "PERMISSIVE",
+      "policyname": "members can delete own days off",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((owner_member_id = current_member_id()) AND (group_id = current_group_id()))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "personal_circle_defs",
+      "permissive": "PERMISSIVE",
+      "policyname": "personal circle defs select own",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((owner_member_id = current_member_id()) AND (group_id = current_group_id()))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "personal_compare_sets",
+      "permissive": "PERMISSIVE",
+      "policyname": "compare sets select own",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "UPDATE",
+      "qual": "((group_id = current_group_id()) AND (member_id = current_member_id()))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "days_off",
+      "permissive": "PERMISSIVE",
+      "policyname": "members can update own days off",
+      "schemaname": "public",
+      "with_check": "((group_id = current_group_id()) AND (member_id = current_member_id()))"
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((owner_member_id = current_member_id()) AND (group_id = current_group_id()))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "personal_member_circles",
+      "permissive": "PERMISSIVE",
+      "policyname": "personal circles select own",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(member_id = current_member_id())",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "personal_schedule_profile_members",
+      "permissive": "PERMISSIVE",
+      "policyname": "schedule profile members read own",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(EXISTS ( SELECT 1\n   FROM personal_schedule_profile_members l\n  WHERE ((l.profile_id = personal_schedule_profiles.id) AND (l.member_id = current_member_id()))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "personal_schedule_profiles",
+      "permissive": "PERMISSIVE",
+      "policyname": "schedule profile read own link",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((member_id = current_member_id()) OR v13_can_access_circle(circle_id))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "shared_circle_memberships",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle memberships visible",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "v13_can_access_circle(circle_id)",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "group_events",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle can read events",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(EXISTS ( SELECT 1\n   FROM group_events e\n  WHERE ((e.id = event_rsvps.event_id) AND v13_can_access_circle(e.circle_id))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "event_rsvps",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle can read event rsvps",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((member_id = current_member_id()) AND (group_id = current_group_id()))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "days_off",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 visible schedules",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(EXISTS ( SELECT 1\n   FROM group_events e\n  WHERE ((e.id = event_plan_notes.event_id) AND v13_can_access_circle(e.circle_id))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "event_plan_notes",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle can read plan notes",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(EXISTS ( SELECT 1\n   FROM group_events e\n  WHERE ((e.id = event_location_options.event_id) AND v13_can_access_circle(e.circle_id))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "event_location_options",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle reads location options",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(EXISTS ( SELECT 1\n   FROM group_events e\n  WHERE ((e.id = event_location_votes.event_id) AND v13_can_access_circle(e.circle_id))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "event_location_votes",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle reads location votes",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "v13_can_access_circle(circle_id)",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "group_polls",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle can read polls",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(EXISTS ( SELECT 1\n   FROM group_polls p\n  WHERE ((p.id = group_poll_options.poll_id) AND v13_can_access_circle(p.circle_id))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "group_poll_options",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle can read poll options",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(EXISTS ( SELECT 1\n   FROM group_polls p\n  WHERE ((p.id = group_poll_votes.poll_id) AND v13_can_access_circle(p.circle_id))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "group_poll_votes",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle can read poll votes",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((circle_id IS NOT NULL) AND v13_can_access_circle(circle_id))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "group_activity_feed",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 circle can read activity feed",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((id = current_member_id()) OR v13_members_share_circle(current_member_id(), id))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "members",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 visible members",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "(EXISTS ( SELECT 1\n   FROM shared_circle_memberships x\n  WHERE ((x.circle_id = shared_circles.id) AND (x.member_id = current_member_id()))))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "shared_circles",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13_3 circles visible to members",
+      "schemaname": "public",
+      "with_check": null
+    },
+    {
+      "cmd": "SELECT",
+      "qual": "((member_id = current_member_id()) AND (group_id = current_group_id()))",
+      "roles": [
+        "authenticated"
+      ],
+      "tablename": "meal_availability_overrides",
+      "permissive": "PERMISSIVE",
+      "policyname": "v13 visible meal overrides",
+      "schemaname": "public",
+      "with_check": null
+    }
+  ],
+  "triggers": [
+    "CREATE TRIGGER days_off_member_activity AFTER INSERT OR DELETE OR UPDATE ON public.days_off FOR EACH ROW EXECUTE FUNCTION mark_member_schedule_updated();",
+    "CREATE TRIGGER days_off_group_feed AFTER INSERT OR DELETE OR UPDATE ON public.days_off FOR EACH ROW EXECUTE FUNCTION log_schedule_feed();",
+    "CREATE TRIGGER meal_override_group_feed AFTER INSERT OR DELETE OR UPDATE ON public.meal_availability_overrides FOR EACH ROW EXECUTE FUNCTION log_availability_feed();",
+    "CREATE TRIGGER group_events_activity_feed AFTER INSERT ON public.group_events FOR EACH ROW EXECUTE FUNCTION log_plan_created_feed();",
+    "CREATE TRIGGER event_rsvps_activity_feed AFTER INSERT OR UPDATE ON public.event_rsvps FOR EACH ROW EXECUTE FUNCTION log_rsvp_feed();",
+    "CREATE TRIGGER members_public_handle_v13 AFTER INSERT ON public.members FOR EACH ROW EXECUTE FUNCTION ensure_member_public_handle_v13();",
+    "CREATE TRIGGER circle_join_requests_v13_2_audit AFTER INSERT OR UPDATE ON public.circle_join_requests FOR EACH ROW EXECUTE FUNCTION v13_2_join_request_audit();",
+    "CREATE TRIGGER shared_circle_memberships_v13_2_audit AFTER INSERT OR DELETE ON public.shared_circle_memberships FOR EACH ROW EXECUTE FUNCTION v13_2_membership_audit();"
+  ],
+  "sequences": [
+    "CREATE SEQUENCE public.member_shift_definitions_id_seq AS bigint;"
+  ],
+  "extensions": [
+    {
+      "name": "plpgsql",
+      "schema": "pg_catalog"
+    },
+    {
+      "name": "pg_stat_statements",
+      "schema": "extensions"
+    },
+    {
+      "name": "uuid-ossp",
+      "schema": "extensions"
+    },
+    {
+      "name": "pgcrypto",
+      "schema": "extensions"
+    },
+    {
+      "name": "supabase_vault",
+      "schema": "vault"
+    },
+    {
+      "name": "pg_trgm",
+      "schema": "extensions"
+    }
+  ],
+  "constraints": [
+    "ALTER TABLE public.groups ADD CONSTRAINT groups_name_check CHECK (((char_length(name) >= 1) AND (char_length(name) <= 50)));",
+    "ALTER TABLE public.groups ADD CONSTRAINT groups_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.groups ADD CONSTRAINT groups_invite_code_key UNIQUE (invite_code);",
+    "ALTER TABLE public.personal_schedule_profiles ADD CONSTRAINT personal_schedule_profiles_created_by_member_id_fkey FOREIGN KEY (created_by_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_schedule_profile_members ADD CONSTRAINT personal_schedule_profile_members_pkey PRIMARY KEY (profile_id, member_id);",
+    "ALTER TABLE public.members ADD CONSTRAINT members_name_check CHECK (((char_length(name) >= 1) AND (char_length(name) <= 40)));",
+    "ALTER TABLE public.members ADD CONSTRAINT members_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.members ADD CONSTRAINT members_user_id_key UNIQUE (user_id);",
+    "ALTER TABLE public.members ADD CONSTRAINT members_id_group_id_key UNIQUE (id, group_id);",
+    "ALTER TABLE public.members ADD CONSTRAINT members_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_member_id_day_key UNIQUE (member_id, day);",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_member_group_fk FOREIGN KEY (member_id, group_id) REFERENCES members(id, group_id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_schedule_profile_members ADD CONSTRAINT personal_schedule_profile_members_member_id_key UNIQUE (member_id);",
+    "ALTER TABLE public.personal_schedule_profile_members ADD CONSTRAINT personal_schedule_profile_members_profile_id_fkey FOREIGN KEY (profile_id) REFERENCES personal_schedule_profiles(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_schedule_profile_members ADD CONSTRAINT personal_schedule_profile_members_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_availability_type_check CHECK ((availability_type = ANY (ARRAY['off'::text, 'partial'::text])));",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_note_length_check CHECK (((note IS NULL) OR (char_length(note) <= 200)));",
+    "ALTER TABLE public.member_devices ADD CONSTRAINT member_devices_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.member_devices ADD CONSTRAINT member_devices_user_id_key UNIQUE (user_id);",
+    "ALTER TABLE public.member_devices ADD CONSTRAINT member_devices_member_id_user_id_key UNIQUE (member_id, user_id);",
+    "ALTER TABLE public.member_devices ADD CONSTRAINT member_devices_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.device_link_codes ADD CONSTRAINT device_link_codes_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.device_link_codes ADD CONSTRAINT device_link_codes_code_key UNIQUE (code);",
+    "ALTER TABLE public.device_link_codes ADD CONSTRAINT device_link_codes_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_source_check CHECK ((source = ANY (ARRAY['manual'::text, 'pdf'::text])));",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_import_filename_length_check CHECK (((import_file_name IS NULL) OR (char_length(import_file_name) <= 200)));",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_entry_type_check CHECK ((entry_type = ANY (ARRAY['off'::text, 'partial'::text, 'shift'::text, 'busy'::text])));",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_shift_start_check CHECK (((shift_start_min IS NULL) OR ((shift_start_min >= 0) AND (shift_start_min <= 1439))));",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_shift_end_check CHECK (((shift_end_min IS NULL) OR ((shift_end_min >= 0) AND (shift_end_min <= 1439))));",
+    "ALTER TABLE public.days_off ADD CONSTRAINT days_off_raw_value_length_check CHECK (((raw_value IS NULL) OR (char_length(raw_value) <= 120)));",
+    "ALTER TABLE public.meal_availability_overrides ADD CONSTRAINT meal_availability_overrides_meal_check CHECK ((meal = ANY (ARRAY['breakfast'::text, 'lunch'::text, 'dinner'::text])));",
+    "ALTER TABLE public.meal_availability_overrides ADD CONSTRAINT meal_availability_overrides_status_check CHECK ((status = ANY (ARRAY['available'::text, 'unavailable'::text])));",
+    "ALTER TABLE public.meal_availability_overrides ADD CONSTRAINT meal_override_note_length CHECK (((note IS NULL) OR (char_length(note) <= 160)));",
+    "ALTER TABLE public.meal_availability_overrides ADD CONSTRAINT meal_availability_overrides_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.meal_availability_overrides ADD CONSTRAINT meal_availability_overrides_member_id_day_meal_key UNIQUE (member_id, day, meal);",
+    "ALTER TABLE public.meal_availability_overrides ADD CONSTRAINT meal_availability_overrides_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.meal_availability_overrides ADD CONSTRAINT meal_availability_overrides_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_event_title_length CHECK (((char_length(title) >= 1) AND (char_length(title) <= 100)));",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_event_start_min CHECK (((start_min IS NULL) OR ((start_min >= 0) AND (start_min <= 1439))));",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_event_location_length CHECK (((location IS NULL) OR (char_length(location) <= 160)));",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_event_note_length CHECK (((note IS NULL) OR (char_length(note) <= 400)));",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_events_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_events_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_events_created_by_member_id_fkey FOREIGN KEY (created_by_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_rsvps ADD CONSTRAINT event_rsvps_status_check CHECK ((status = ANY (ARRAY['going'::text, 'maybe'::text, 'cant'::text])));",
+    "ALTER TABLE public.event_rsvps ADD CONSTRAINT event_rsvps_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.event_rsvps ADD CONSTRAINT event_rsvps_event_id_member_id_key UNIQUE (event_id, member_id);",
+    "ALTER TABLE public.event_rsvps ADD CONSTRAINT event_rsvps_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_rsvps ADD CONSTRAINT event_rsvps_event_id_fkey FOREIGN KEY (event_id) REFERENCES group_events(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_rsvps ADD CONSTRAINT event_rsvps_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_events_category_check CHECK ((category = ANY (ARRAY['dinner'::text, 'home'::text, 'coffee'::text, 'breakfast'::text, 'party'::text, 'trip'::text, 'dayout'::text, 'other'::text])));",
+    "ALTER TABLE public.groups ADD CONSTRAINT groups_community_type_check CHECK ((community_type = ANY (ARRAY['shiftworkers'::text, 'friends'::text, 'family'::text, 'team'::text, 'community'::text])));",
+    "ALTER TABLE public.member_activity ADD CONSTRAINT member_activity_pkey PRIMARY KEY (member_id);",
+    "ALTER TABLE public.member_activity ADD CONSTRAINT member_activity_member_group_fk FOREIGN KEY (member_id, group_id) REFERENCES members(id, group_id) ON DELETE CASCADE;",
+    "ALTER TABLE public.members ADD CONSTRAINT members_schedule_visibility_check CHECK ((schedule_visibility = ANY (ARRAY['freebusy'::text, 'shifts'::text, 'details'::text])));",
+    "ALTER TABLE public.group_activity_feed ADD CONSTRAINT group_activity_feed_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.group_activity_feed ADD CONSTRAINT group_activity_feed_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_activity_feed ADD CONSTRAINT group_activity_feed_actor_member_id_fkey FOREIGN KEY (actor_member_id) REFERENCES members(id) ON DELETE SET NULL;",
+    "ALTER TABLE public.group_polls ADD CONSTRAINT group_polls_title_check CHECK (((char_length(title) >= 1) AND (char_length(title) <= 120)));",
+    "ALTER TABLE public.group_polls ADD CONSTRAINT group_polls_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.group_polls ADD CONSTRAINT group_polls_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_polls ADD CONSTRAINT group_polls_created_by_member_id_fkey FOREIGN KEY (created_by_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_poll_options ADD CONSTRAINT group_poll_options_start_min_check CHECK (((start_min IS NULL) OR ((start_min >= 0) AND (start_min <= 1439))));",
+    "ALTER TABLE public.group_poll_options ADD CONSTRAINT group_poll_options_label_check CHECK (((label IS NULL) OR (char_length(label) <= 80)));",
+    "ALTER TABLE public.group_poll_options ADD CONSTRAINT group_poll_options_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.group_poll_options ADD CONSTRAINT group_poll_options_poll_id_fkey FOREIGN KEY (poll_id) REFERENCES group_polls(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_poll_options ADD CONSTRAINT group_poll_options_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_poll_votes ADD CONSTRAINT group_poll_votes_status_check CHECK ((status = ANY (ARRAY['works'::text, 'maybe'::text, 'cant'::text])));",
+    "ALTER TABLE public.group_poll_votes ADD CONSTRAINT group_poll_votes_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.group_poll_votes ADD CONSTRAINT group_poll_votes_option_id_member_id_key UNIQUE (option_id, member_id);",
+    "ALTER TABLE public.group_poll_votes ADD CONSTRAINT group_poll_votes_poll_id_fkey FOREIGN KEY (poll_id) REFERENCES group_polls(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_poll_votes ADD CONSTRAINT group_poll_votes_option_id_fkey FOREIGN KEY (option_id) REFERENCES group_poll_options(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_poll_votes ADD CONSTRAINT group_poll_votes_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_poll_votes ADD CONSTRAINT group_poll_votes_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_member_circles ADD CONSTRAINT personal_member_circles_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.personal_member_circles ADD CONSTRAINT personal_member_circles_unique UNIQUE (owner_member_id, target_member_id, circle_key);",
+    "ALTER TABLE public.personal_member_circles ADD CONSTRAINT personal_member_circles_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_member_circles ADD CONSTRAINT personal_member_circles_owner_member_id_fkey FOREIGN KEY (owner_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_member_circles ADD CONSTRAINT personal_member_circles_target_member_id_fkey FOREIGN KEY (target_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_plan_notes ADD CONSTRAINT event_plan_notes_body_check CHECK (((char_length(body) >= 1) AND (char_length(body) <= 240)));",
+    "ALTER TABLE public.event_plan_notes ADD CONSTRAINT event_plan_notes_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.event_plan_notes ADD CONSTRAINT event_plan_notes_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_plan_notes ADD CONSTRAINT event_plan_notes_event_id_fkey FOREIGN KEY (event_id) REFERENCES group_events(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_plan_notes ADD CONSTRAINT event_plan_notes_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_circle_defs ADD CONSTRAINT personal_circle_defs_label_check CHECK (((char_length(label) >= 1) AND (char_length(label) <= 30)));",
+    "ALTER TABLE public.personal_circle_defs ADD CONSTRAINT personal_circle_defs_icon_check CHECK (((char_length(icon) >= 1) AND (char_length(icon) <= 8)));",
+    "ALTER TABLE public.personal_circle_defs ADD CONSTRAINT personal_circle_defs_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.personal_circle_defs ADD CONSTRAINT personal_circle_defs_owner_member_id_circle_key_key UNIQUE (owner_member_id, circle_key);",
+    "ALTER TABLE public.personal_circle_defs ADD CONSTRAINT personal_circle_defs_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_circle_defs ADD CONSTRAINT personal_circle_defs_owner_member_id_fkey FOREIGN KEY (owner_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_compare_sets ADD CONSTRAINT personal_compare_sets_label_check CHECK (((char_length(label) >= 1) AND (char_length(label) <= 30)));",
+    "ALTER TABLE public.personal_compare_sets ADD CONSTRAINT personal_compare_sets_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.personal_compare_sets ADD CONSTRAINT personal_compare_sets_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_compare_sets ADD CONSTRAINT personal_compare_sets_owner_member_id_fkey FOREIGN KEY (owner_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_location_options ADD CONSTRAINT event_location_options_label_check CHECK (((char_length(label) >= 1) AND (char_length(label) <= 100)));",
+    "ALTER TABLE public.event_location_options ADD CONSTRAINT event_location_options_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.event_location_options ADD CONSTRAINT event_location_options_event_id_label_key UNIQUE (event_id, label);",
+    "ALTER TABLE public.event_location_options ADD CONSTRAINT event_location_options_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_location_options ADD CONSTRAINT event_location_options_event_id_fkey FOREIGN KEY (event_id) REFERENCES group_events(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_location_options ADD CONSTRAINT event_location_options_created_by_member_id_fkey FOREIGN KEY (created_by_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_location_votes ADD CONSTRAINT event_location_votes_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.event_location_votes ADD CONSTRAINT event_location_votes_event_id_member_id_key UNIQUE (event_id, member_id);",
+    "ALTER TABLE public.event_location_votes ADD CONSTRAINT event_location_votes_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_location_votes ADD CONSTRAINT event_location_votes_event_id_fkey FOREIGN KEY (event_id) REFERENCES group_events(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_location_votes ADD CONSTRAINT event_location_votes_option_id_fkey FOREIGN KEY (option_id) REFERENCES event_location_options(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.event_location_votes ADD CONSTRAINT event_location_votes_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.personal_schedule_profiles ADD CONSTRAINT personal_schedule_profiles_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.members ADD CONSTRAINT members_role_check CHECK ((role = ANY (ARRAY['member'::text, 'viewer'::text, 'pending'::text])));",
+    "ALTER TABLE public.shared_circles ADD CONSTRAINT shared_circles_name_check CHECK (((char_length(TRIM(BOTH FROM name)) >= 1) AND (char_length(TRIM(BOTH FROM name)) <= 40)));",
+    "ALTER TABLE public.shared_circles ADD CONSTRAINT shared_circles_icon_check CHECK (((char_length(icon) >= 1) AND (char_length(icon) <= 8)));",
+    "ALTER TABLE public.shared_circles ADD CONSTRAINT shared_circles_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.shared_circles ADD CONSTRAINT shared_circles_group_id_name_key UNIQUE (group_id, name);",
+    "ALTER TABLE public.shared_circles ADD CONSTRAINT shared_circles_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.shared_circles ADD CONSTRAINT shared_circles_created_by_member_id_fkey FOREIGN KEY (created_by_member_id) REFERENCES members(id) ON DELETE SET NULL;",
+    "ALTER TABLE public.shared_circle_memberships ADD CONSTRAINT shared_circle_memberships_role_check CHECK ((role = ANY (ARRAY['member'::text, 'admin'::text])));",
+    "ALTER TABLE public.shared_circle_memberships ADD CONSTRAINT shared_circle_memberships_pkey PRIMARY KEY (circle_id, member_id);",
+    "ALTER TABLE public.shared_circle_memberships ADD CONSTRAINT shared_circle_memberships_circle_id_fkey FOREIGN KEY (circle_id) REFERENCES shared_circles(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.shared_circle_memberships ADD CONSTRAINT shared_circle_memberships_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.circle_join_requests ADD CONSTRAINT circle_join_requests_request_type_check CHECK ((request_type = ANY (ARRAY['join'::text, 'invited'::text])));",
+    "ALTER TABLE public.circle_join_requests ADD CONSTRAINT circle_join_requests_status_check CHECK ((status = ANY (ARRAY['pending'::text, 'approved'::text, 'rejected'::text])));",
+    "ALTER TABLE public.circle_join_requests ADD CONSTRAINT circle_join_requests_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.circle_join_requests ADD CONSTRAINT circle_join_requests_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.circle_join_requests ADD CONSTRAINT circle_join_requests_circle_id_fkey FOREIGN KEY (circle_id) REFERENCES shared_circles(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.circle_join_requests ADD CONSTRAINT circle_join_requests_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.circle_join_requests ADD CONSTRAINT circle_join_requests_decided_by_member_id_fkey FOREIGN KEY (decided_by_member_id) REFERENCES members(id) ON DELETE SET NULL;",
+    "ALTER TABLE public.circle_invites ADD CONSTRAINT circle_invites_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.circle_invites ADD CONSTRAINT circle_invites_code_key UNIQUE (code);",
+    "ALTER TABLE public.circle_invites ADD CONSTRAINT circle_invites_circle_id_fkey FOREIGN KEY (circle_id) REFERENCES shared_circles(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.circle_invites ADD CONSTRAINT circle_invites_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.circle_invites ADD CONSTRAINT circle_invites_created_by_member_id_fkey FOREIGN KEY (created_by_member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_events ADD CONSTRAINT group_events_circle_id_fkey FOREIGN KEY (circle_id) REFERENCES shared_circles(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_polls ADD CONSTRAINT group_polls_circle_id_fkey FOREIGN KEY (circle_id) REFERENCES shared_circles(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_activity_feed ADD CONSTRAINT group_activity_feed_circle_id_fkey FOREIGN KEY (circle_id) REFERENCES shared_circles(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.app_network_config ADD CONSTRAINT app_network_config_singleton_check CHECK (singleton);",
+    "ALTER TABLE public.app_network_config ADD CONSTRAINT app_network_config_pkey PRIMARY KEY (singleton);",
+    "ALTER TABLE public.app_network_config ADD CONSTRAINT app_network_config_group_id_key UNIQUE (group_id);",
+    "ALTER TABLE public.app_network_config ADD CONSTRAINT app_network_config_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.shared_circles ADD CONSTRAINT shared_circles_description_len CHECK (((description IS NULL) OR (char_length(description) <= 120)));",
+    "ALTER TABLE public.app_activity_log ADD CONSTRAINT app_activity_log_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.app_activity_log ADD CONSTRAINT app_activity_log_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.group_polls ADD CONSTRAINT group_polls_choice_mode_check CHECK ((choice_mode = ANY (ARRAY['availability'::text, 'single'::text])));",
+    "ALTER TABLE public.members ADD CONSTRAINT members_calendar_initials_v13_3_check CHECK (((calendar_initials IS NULL) OR (calendar_initials ~ '^[A-Za-z0-9]{1,3}$'::text)));",
+    "ALTER TABLE public.shared_circles ADD CONSTRAINT shared_circles_discoverability_v13_3_check CHECK ((discoverability = ANY (ARRAY['searchable'::text, 'invite_only'::text])));",
+    "ALTER TABLE public.shared_circle_memberships ADD CONSTRAINT shared_circle_memberships_member_type_v13_3_check CHECK ((member_type = ANY (ARRAY['working'::text, 'viewer'::text])));",
+    "ALTER TABLE public.circle_join_requests ADD CONSTRAINT circle_join_requests_member_type_v13_3_check CHECK ((requested_member_type = ANY (ARRAY['working'::text, 'viewer'::text])));",
+    "ALTER TABLE public.member_shift_definitions ADD CONSTRAINT member_shift_definitions_kind_check CHECK ((kind = ANY (ARRAY['working'::text, 'off'::text, 'development'::text, 'leave'::text, 'busy'::text])));",
+    "ALTER TABLE public.member_shift_definitions ADD CONSTRAINT member_shift_definitions_start_min_check CHECK (((start_min IS NULL) OR ((start_min >= 0) AND (start_min <= 1439))));",
+    "ALTER TABLE public.member_shift_definitions ADD CONSTRAINT member_shift_definitions_end_min_check CHECK (((end_min IS NULL) OR ((end_min >= 0) AND (end_min <= 1439))));",
+    "ALTER TABLE public.member_shift_definitions ADD CONSTRAINT member_shift_definitions_check CHECK (((kind <> 'working'::text) OR ((start_min IS NOT NULL) AND (end_min IS NOT NULL))));",
+    "ALTER TABLE public.member_shift_definitions ADD CONSTRAINT member_shift_definitions_pkey PRIMARY KEY (id);",
+    "ALTER TABLE public.member_shift_definitions ADD CONSTRAINT member_shift_definitions_member_id_normalized_code_key UNIQUE (member_id, normalized_code);",
+    "ALTER TABLE public.member_shift_definitions ADD CONSTRAINT member_shift_definitions_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.member_availability_preferences ADD CONSTRAINT member_availability_preferences_pkey PRIMARY KEY (member_id);",
+    "ALTER TABLE public.member_availability_preferences ADD CONSTRAINT member_availability_preferences_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;",
+    "ALTER TABLE public.account_recovery_keys ADD CONSTRAINT account_recovery_keys_pkey PRIMARY KEY (member_id);",
+    "ALTER TABLE public.account_recovery_keys ADD CONSTRAINT account_recovery_keys_token_hash_key UNIQUE (token_hash);",
+    "ALTER TABLE public.account_recovery_keys ADD CONSTRAINT account_recovery_keys_member_id_fkey FOREIGN KEY (member_id) REFERENCES members(id) ON DELETE CASCADE;"
+  ]
+}

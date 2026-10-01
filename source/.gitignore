@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.netlify/
+ios/App/Pods/
+*.keystore
+*.p12
+*.mobileprovision

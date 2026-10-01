@@ -1,0 +1,162 @@
+[
+  {
+    "file": "database/current-functions.sql",
+    "bytes": 138584,
+    "sha256": "826fecba45c69f44ec5737c764dc5b7b2d5f3af5426dfc281cf638991eaa4d3d"
+  },
+  {
+    "file": "database/current-public-schema.sql",
+    "bytes": 226787,
+    "sha256": "14c023ecf346fd472431a018a3c0279049f19c1ceba069a1358f9db85f909fff"
+  },
+  {
+    "file": "database/production-migration-history.json",
+    "bytes": 120,
+    "sha256": "0af4bb5277e40fe8b8fe4300d60ca4985b3b6ca3c5b442dc8eaa27b797279c74"
+  },
+  {
+    "file": "database/public-schema.json",
+    "bytes": 158378,
+    "sha256": "73264e0a79c093f9e358c9b3ab7058931b9da247a8eb90023e45f2ec913331b1"
+  },
+  {
+    "file": "database/release-v14.sql",
+    "bytes": 28876,
+    "sha256": "e4af8bd6fbbd13af1d2e8330ea8933cb8bd9e8aae1b9a6918f40efa5078ccca1"
+  },
+  {
+    "file": "database/staging-regression.sql",
+    "bytes": 7030,
+    "sha256": "ad5b9f652b86146908de2e4534543ebd9b253714e22b8e1f82fef32d5a3650c9"
+  },
+  {
+    "file": "Developer-Handover.html",
+    "bytes": 35343,
+    "sha256": "df06de1bfd04481ef764cf3f85bd485721a31e0cb03d6580834afc1138602c8b"
+  },
+  {
+    "file": "docs/DEVELOPER-GUIDE.md",
+    "bytes": 12154,
+    "sha256": "d15aff1c805c24dd721459d214ce2aa7bd58e53678391a70ea22bdb29f045f70"
+  },
+  {
+    "file": "docs/FUNCTION-INDEX.md",
+    "bytes": 27565,
+    "sha256": "41b392ce09b7c2c96c6440f404ad18a53259ee8584fe925100896c0102c8f6ae"
+  },
+  {
+    "file": "docs/MOBILE-AND-STORES.md",
+    "bytes": 11239,
+    "sha256": "872d1f9fb99909eb2d479c404b424855067c01306708cf7c53990939059940f1"
+  },
+  {
+    "file": "docs/PACKAGE-VERIFICATION.md",
+    "bytes": 1398,
+    "sha256": "0d60ac1fed38398d685f428bf88cafe75ba0314ee860c551bb21d62b17b64f67"
+  },
+  {
+    "file": "docs/SECURE-ACCESS.md",
+    "bytes": 2838,
+    "sha256": "42fe397bbede7c7068ba21d9e43f0501bfc12beed5760d0197b870d74fd6f00b"
+  },
+  {
+    "file": "source/.env.example",
+    "bytes": 259,
+    "sha256": "44e604d4af0fbd8d27e30d047f137480dad8680d0b9eb7b900b16a33290f1592"
+  },
+  {
+    "file": "source/.gitignore",
+    "bytes": 100,
+    "sha256": "e32573ff842fa0bd24871d2a13a6726f73ed81c470ee98b0ef5dfa0f320e18b7"
+  },
+  {
+    "file": "source/netlify/functions/ai-rota.mjs",
+    "bytes": 6844,
+    "sha256": "733a4eaed0015458526f1a41c2520445d54c063db8d84b209bcc3f5743895f87"
+  },
+  {
+    "file": "source/netlify.toml",
+    "bytes": 154,
+    "sha256": "d8a423789d3e1d02beb8b5ddc7d63743d3090ed0cf0844833ecf69ffaec5f99f"
+  },
+  {
+    "file": "source/package.json",
+    "bytes": 243,
+    "sha256": "e606b0b702d12a3ae76f2db136974b3b85b7610fd4d7b582fdcbdbe07231768d"
+  },
+  {
+    "file": "source/public/app.js",
+    "bytes": 297279,
+    "sha256": "815c858875eaa7591b0447560d85ced3654f6a8a06971fa3a3c16b52313dcb0e"
+  },
+  {
+    "file": "source/public/availability.js",
+    "bytes": 3810,
+    "sha256": "1f1ebed7dce3d43856d64a61d9a5f8c5f5b0a839fdda7444d1c2990420145324"
+  },
+  {
+    "file": "source/public/calendar-export.js",
+    "bytes": 1138,
+    "sha256": "0eae5c5bef3c78c716088f7903e9a50e07eb1773eb0c89fe63a811158c864184"
+  },
+  {
+    "file": "source/public/config.js",
+    "bytes": 142,
+    "sha256": "f3c123ad6c2e19857220035851170db28010f2e0023b29b84de76ae25248a8ca"
+  },
+  {
+    "file": "source/public/design-system.css",
+    "bytes": 6301,
+    "sha256": "26918eabb87450566f0247d689b4fd3610188a1c61b606a5cf16762c9cf0f7b9"
+  },
+  {
+    "file": "source/public/icon-192.png",
+    "bytes": 42266,
+    "sha256": "a00dbd431d03b46cecd39e1527105499404ef0661ff312eeff06e4cbd3a08046"
+  },
+  {
+    "file": "source/public/icon-512.png",
+    "bytes": 243752,
+    "sha256": "e378bcf7ac4a02f8302ed60ea94cb17480ac8e616f75e0d56f82ca28d97ae3b4"
+  },
+  {
+    "file": "source/public/icon.svg",
+    "bytes": 350,
+    "sha256": "a291f2cfe43b6fb1cbd46cce86fd128ffd71f4e870ce79d2f5b6c2963c4214af"
+  },
+  {
+    "file": "source/public/index.html",
+    "bytes": 1072,
+    "sha256": "131ed402a69d837cdd9d87b8e30590ffeeda9d908e1c41a2cccf30c42b97ecbd"
+  },
+  {
+    "file": "source/public/manifest.webmanifest",
+    "bytes": 545,
+    "sha256": "63b73ed02b4a5df1ab5c870281dab490cceb14d4a56ecbed020df2bb2af0b439"
+  },
+  {
+    "file": "source/public/styles.css",
+    "bytes": 88946,
+    "sha256": "9c5f1b551e4dbffdfb2d67e428228f302462a4f6e01af1078d5c35057d9f5581"
+  },
+  {
+    "file": "source/public/sw.js",
+    "bytes": 2482,
+    "sha256": "aec38aa18b52c891518148bfb36418c3da0313d6a30a4dee492f7405ddb881b2"
+  },
+  {
+    "file": "source/tests/ai-rota.test.mjs",
+    "bytes": 2405,
+    "sha256": "56a032b8f3d5bc9d16f0c562f930aa0321dee4e917bc3d0c29f221971a831258"
+  },
+  {
+    "file": "source/tests/availability.test.mjs",
+    "bytes": 3551,
+    "sha256": "c92228e61d141faa2e2e44af8dd71a207072b81282942ce399eee8f4a20a0b9e"
+  },
+  {
+    "file": "START-HERE.md",
+    "bytes": 3765,
+    "sha256": "8de8a6a3a6ed6296d639506b3658a59c800724230305aba56e632cd3a5804e6a"
+  }
+]
