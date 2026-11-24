@@ -4,7 +4,7 @@ import {availabilityAt, availabilityBoundaries, confirmedFullDayOff, normalizePr
 
 import {planCalendarRange} from "./calendar-export.js";
 const $app = document.querySelector("#app");
-const APP_VERSION = "14.1.0";
+const APP_VERSION = "14.1.1";
 const AI_ROTA_COMMAND = "# Automatic Rota Extraction and Conversion\n\nAct as a specialist hospital rota extraction, validation and file conversion assistant.\n\nWhenever I upload a hospital rota in any format, including PDF, Excel, CSV, Word, screenshots, photographs or scanned documents, automatically convert it into a standardised, app-importable PDF and CSV.\n\n## 1. Identify the doctor\n- Extract only the rota belonging to the doctor I specify.\n- Recognise full names, surnames, initials and abbreviated names.\n- If I upload a file without specifying a doctor, ask whose rota I want.\n- If the doctor's identity is ambiguous, ask for confirmation before proceeding.\n- Exclude all other doctors' shifts.\n\n## 2. Extract and standardise the rota\n- Review every page, worksheet and screenshot.\n- Extract all dates and corresponding shifts.\n- Arrange entries chronologically with exactly one row per calendar date.\n- Use the 24-hour time format HH:MM.\n- Convert shift abbreviations into actual timings using the rota legend or confirmed shift definitions.\n- Never invent shift timings.\n- Record confirmed rest days and zero days as OFF.\n- Record annual leave as AL and study leave as SL.\n- Record unconfirmed, undefined, missing or unreadable shifts as TBC.\n- Do not automatically interpret blank cells as OFF unless supported by the source.\n- Recognise overnight shifts correctly, including shifts ending at midnight.\n- Assign overnight shifts to their starting date, with the end time falling on the following calendar day. Represent midnight as 00:00.\n- Remove duplicate entries from overlapping screenshots.\n- Flag conflicting entries for review.\n\n## 3. PDF output\nGenerate a downloadable, text-based PDF using exactly three columns:\n\n| Date       | Day       | Shift time  |\n| ---------- | --------- | ----------- |\n| 01/12/2026 | Tuesday   | 08:00–17:30 |\n| 02/12/2026 | Wednesday | 14:00–23:00 |\n| 03/12/2026 | Thursday  | 22:00–08:15 |\n| 04/12/2026 | Friday    | OFF         |\n| 05/12/2026 | Saturday  | AL          |\n| 06/12/2026 | Sunday    | TBC         |\n\nPDF formatting requirements:\n- Date format: DD/MM/YYYY.\n- Plain white background.\n- Black, selectable, machine-readable text.\n- Simple, consistently aligned table.\n- Repeat column headers on each page.\n- No embedded screenshots or images.\n- No colour coding, decorative elements, logos or unnecessary headings.\n- No shift descriptions such as Early, Late, Night or Normal Day.\n- No commentary, explanations or extraction summaries inside the PDF.\n- Optimise the document specifically for AI-powered rota scanning and calendar import.\n\n## 4. CSV output\nGenerate a downloadable UTF-8 CSV using exactly these column headers:\n\ndate,day,start_time,end_time,is_overnight,status\n\nFormatting requirements:\n- Date: YYYY-MM-DD.\n- Start and end times: HH:MM.\n- Overnight status: true or false.\n- Status: work, OFF, AL, SL or TBC.\n- Leave start and end times empty for entries without confirmed working hours.\n- Use one row per calendar date.\n- Do not include additional columns, comments or metadata.\n\n## 5. Mandatory quality checks\nBefore generating the final files:\n- Cross-check every extracted shift against the original source.\n- Verify the correct doctor's column across every page.\n- Verify that dates correspond to the correct days of the week.\n- Check month and year transitions.\n- Check overnight shifts and midnight finishes.\n- Check for missing dates, duplicate dates and conflicting entries.\n- Verify that the PDF and CSV contain identical rota information.\n- Confirm that the PDF contains selectable text.\n- Confirm that both files open correctly.\n- Never claim an entry has been verified if the source is unreadable.\n- Mark unresolved entries as TBC rather than guessing.\n\n## 6. Final delivery\nAlways provide actual downloadable files, not merely a table displayed in the chat.\n\nUse the following filenames:\n- Doctor_Name_Rota.pdf\n- Doctor_Name_Rota.csv\n\nOutside the files, provide a brief extraction summary containing:\n- Doctor's name.\n- Rota start and end dates.\n- Total calendar dates.\n- Confirmed working shifts.\n- OFF days.\n- Annual leave days.\n- Study leave days.\n- TBC entries.\n- Any discrepancies requiring manual review.\n\nThe primary objective is accurate AI rota recognition and calendar import, not visual reproduction of the original hospital rota.\n\nAutomatically execute this workflow whenever I upload a rota and specify a doctor's name. Do not ask unnecessary questions or request confirmation when all required information is available.";
 const APP_THEMES = [
   {key:"ocean", label:"Ocean", swatches:["#2563eb","#06b6d4","#14b8a6"]},
@@ -572,15 +572,6 @@ function renderMain(state) {
             ? "You can map PDF columns to any working member and update several people at once."
             : "You can import only your own column."} The PDF itself stays on this device.</p>
         </div>
-        <details class="ai-command-box">
-          <summary><strong>AI Command</strong> <span class="subtle">Prepare your rota using an external AI assistant</span></summary>
-          <div class="stack ai-command-content">
-            <p class="subtle">Copy the command, open your preferred AI assistant, upload your rota and specify your name. Download the generated PDF, then upload it below and check the member mapping before saving.</p>
-            <div class="notice">Only upload information you are authorised to share. Remove colleagues’ personal information where possible. Review all shifts and TBC entries before importing.</div>
-            <label class="field"><span>AI command</span><textarea class="input" id="aiRotaCommandText" readonly rows="8">${escapeHtml(AI_ROTA_COMMAND)}</textarea></label>
-            <div class="row-wrap"><button class="btn btn-primary" id="copyAiRotaCommand" type="button">Copy AI Command</button><span id="aiRotaCommandStatus" class="toast" aria-live="polite"></span></div>
-          </div>
-        </details>
         <label class="field">
           <span>Rota PDF</span>
           <input class="input file-input" id="rotaPdfFile" type="file" accept="application/pdf,.pdf">
@@ -605,29 +596,12 @@ function renderMain(state) {
 
 
         <div class="dashboard-divider"></div>
-        <div class="spreadsheet-import-box">
-          <div>
-            <p class="eyebrow">Spreadsheet</p>
-            <h3>Import Excel / CSV rota</h3>
-            <p class="subtle">Supports .xlsx, .xls and .csv. The app detects the date column and staff columns, then lets you map names before saving.</p>
-          </div>
-          <label class="field">
-            <span>Rota spreadsheet</span>
-            <input class="input file-input" id="rotaSheetFile" type="file" accept=".xlsx,.xls,.csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,text/csv">
-          </label>
-          <div class="row-wrap">
-            <button class="btn" id="analyseRotaSheet" type="button">Read spreadsheet</button>
-            <span id="rotaSheetStatus" class="toast"></span>
-          </div>
-          <div id="rotaSheetPreview" class="rota-preview" hidden>
-            <div><strong id="rotaSheetPreviewTitle"></strong><div class="subtle" id="rotaSheetPreviewText"></div></div>
-            <div id="rotaSheetMappings" class="mapping-list"></div>
-            <div class="notice">Blank cells stay unknown. Nothing is assumed to be OFF. Check the name mappings before applying.</div>
-            <div class="row-wrap between">
-              <span id="rotaSheetSummary" class="subtle"></span>
-              <button class="btn btn-primary" id="applyRotaSheet" type="button">Import mapped columns</button>
-            </div>
-          </div>
+        <div class="spreadsheet-import-box ai-command-card">
+          <div><p class="eyebrow">Prepare your rota</p><h3>AI Command</h3><p class="subtle">Convert a PDF, Excel file, screenshot or other rota into an import-ready PDF using your preferred AI assistant.</p></div>
+          <div class="row-wrap"><button class="btn btn-primary" id="copyAiRotaCommand" type="button">Copy AI Command</button><span id="aiRotaCommandStatus" class="toast" aria-live="polite"></span></div>
+          <p class="subtle">1. Copy the command. 2. Paste it into your AI assistant and upload your rota with your name. 3. Download the generated PDF and upload it in the Rota PDF section above. Check the member mapping and shifts before saving.</p>
+          <details class="ai-command-box" id="aiCommandDetails"><summary>View full AI command</summary><div class="stack ai-command-content"><label class="field"><span>AI command</span><textarea class="input" id="aiRotaCommandText" readonly rows="8">${escapeHtml(AI_ROTA_COMMAND)}</textarea></label></div></details>
+          <div class="notice">Only upload information you are authorised to share. Remove colleagues’ personal information where possible. Review all shifts and TBC entries before importing.</div>
         </div>
 
         <div class="dashboard-divider"></div>
@@ -3443,7 +3417,7 @@ function wireFullRotaImport(state) {
   $("#copyAiRotaCommand")?.addEventListener("click",async()=>{
     const field=$("#aiRotaCommandText"), status=$("#aiRotaCommandStatus");
     try { await navigator.clipboard.writeText(AI_ROTA_COMMAND); setMsg(status,"AI command copied ✓"); }
-    catch { field.focus(); field.select(); field.setSelectionRange(0,field.value.length); setMsg(status,"Command selected. Use your device’s Copy option."); }
+    catch { $("#aiCommandDetails").open=true; field.focus(); field.select(); field.setSelectionRange(0,field.value.length); setMsg(status,"Command selected. Use your device’s Copy option."); }
   });
 
   $("#analyseRotaPdf").addEventListener("click",async()=>{

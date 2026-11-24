@@ -1,4 +1,4 @@
-const CACHE = "our-days-off-v14-1-ai-command";
+const CACHE = "our-days-off-v14-1-1-ai-command-card";
 const APP_SHELL = ["./", "./index.html", "./styles.css", "./design-system.css", "./availability.js", "./calendar-export.js", "./app.js", "./config.js", "./manifest.webmanifest", "./icon.svg", "./icon-192.png", "./icon-512.png"];
 const REMOTE_DEPS = [
   "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm",
