@@ -79,8 +79,8 @@ export default async (req)=>{
       headers:{"content-type":"application/json",authorization:`Bearer ${apiKey}`},
       body:JSON.stringify({model,input:[{role:"user",content}],text:{format:{type:"json_schema",name:"rota_extract",strict:true,schema}},store:false})
     });
-    const raw=await r.json();
-    if(!r.ok) return reply(502,{error:"AI rota reading is temporarily unavailable. Please try again later."});
+    let raw;try{raw=await r.json();}catch{return reply(502,{error:`AI provider returned an unreadable response (HTTP ${r.status}).`});}
+    if(!r.ok){console.warn("AI provider error",r.status,raw?.error?.code);return reply(502,{error:`AI provider request failed (HTTP ${r.status}). Check model access, API billing or Netlify logs.`});}
     const text=extractOutputText(raw);
     if(!text) return reply(502,{error:"AI returned no rota data."});
     let parsed;
